@@ -45,7 +45,7 @@ do
                 echo "Ref $ref received. 部署 ${BRANCH} 分支到生产环境中"
                 git --work-tree=$TARGET --git-dir=$GIT_DIR checkout -f
                 echo "停止容器运行"
-                docker stop docweb
+                docker stop docwebcontainer
                 echo "删除旧容器"
                 docker rm docwebcontainer 
                 echo "删除旧镜像"
