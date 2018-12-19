@@ -13,7 +13,7 @@ baseURL = "/"
     pygmentsStyle = "monokailight"
 
   [languages.cn]
-    baseURL = "./"
+    baseURL = "/"
     languageName = "Chinese"
     contentDir = "content/Chinese"
     staticDir="cn"
