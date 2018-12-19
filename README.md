@@ -30,6 +30,7 @@ git init --bare docweb-hugo.git
 
 then enter into the library's `hooks` folder and create `post-receive` file.
 
+> Note: running command `chmod ug+x post-receive`to authority
 ```bash
 #!/bin/bash
 TRAGET="/home/ubuntu/docweb-hugo-dir"
@@ -61,6 +62,10 @@ do
 done
 ```
 
+#### The third step: add remote git branch to local dev environment
 
+```
+git remote add production user@ip_address:~/docweb-hugo.git 
+```
 
 
