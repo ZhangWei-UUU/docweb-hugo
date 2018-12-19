@@ -50,7 +50,7 @@ do
                 echo "删除旧镜像"
                 docker rmi docwebImage
                 echo "构建新镜像"
-                cd ~/deploy-dir
+                cd ~/docweb-hugo-dir
                 docker build -t docwebImage .
                 echo "启动新容器"
                 docker run --name docwebContainer -p 6000:80 -d docwebImage
