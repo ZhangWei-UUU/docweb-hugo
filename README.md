@@ -33,7 +33,7 @@ then enter into the library's `hooks` folder and create `post-receive` file.
 > Note: running command `chmod ug+x post-receive`to authority
 ```bash
 #!/bin/bash
-TRAGET="/home/ubuntu/docwebhugodir"
+TARGET="/home/ubuntu/docwebhugodir"
 GIT_DIR="/home/ubuntu/docweb-hugo.git"
 BRANCH="master"
 
@@ -43,7 +43,7 @@ do
         if [[ $ref = refs/heads/$BRANCH ]];
         then
                 echo "Ref $ref received. 部署 ${BRANCH} 分支到生产环境中"
-                git --work-tree=$TRAGET --git-dir=$GIT_DIR checkout -f
+                git --work-tree=$TARGET --git-dir=$GIT_DIR checkout -f
                 echo "停止容器运行"
                 docker stop docweb
                 echo "删除旧容器"
@@ -51,7 +51,7 @@ do
                 echo "删除旧镜像"
                 docker rmi docwebimage
                 echo "构建新镜像"
-                cd $TRAGET
+                cd $TARGET
                 docker build -t docwebimage .
                 echo "启动新容器"
                 docker run --name docwebcontainer -p 6000:80 -d docwebimage
