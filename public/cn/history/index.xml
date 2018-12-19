@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>历史 on Hugo 文档</title>
-    <link>/history/</link>
+    <link>./history/</link>
     <description>Recent content in 历史 on Hugo 文档</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn-zh</language>
     <lastBuildDate>Sun, 28 Jan 2018 21:58:09 +0100</lastBuildDate>
     
-	<atom:link href="/history/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="./history/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

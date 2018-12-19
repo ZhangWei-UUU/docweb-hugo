@@ -3,163 +3,163 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/introduction/</loc>
+    <loc>./introduction/</loc>
     <lastmod>2018-01-27T15:42:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/introduction/"
+                href="./introduction/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/introduction/"
+                href="./introduction/"
                 />
   </url>
   
   <url>
-    <loc>/plot/</loc>
+    <loc>./plot/</loc>
     <lastmod>2018-01-28T21:48:57+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/plot/"
+                href="./plot/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/plot/"
+                href="./plot/"
                 />
   </url>
   
   <url>
-    <loc>/introduction/code/</loc>
+    <loc>./introduction/code/</loc>
     <lastmod>2018-01-28T21:48:10+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/introduction/code/"
+                href="./introduction/code/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/introduction/code/"
+                href="./introduction/code/"
                 />
   </url>
   
   <url>
-    <loc>/characters/bora/</loc>
+    <loc>./characters/bora/</loc>
     <lastmod>2018-01-28T21:54:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/characters/</loc>
+    <loc>./characters/</loc>
     <lastmod>2018-01-28T22:01:36+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/characters/"
+                href="./characters/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/characters/"
+                href="./characters/"
                 />
   </url>
   
   <url>
-    <loc>/characters/balveda/</loc>
+    <loc>./characters/balveda/</loc>
     <lastmod>2018-01-28T21:55:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/characters/balveda/"
+                href="./characters/balveda/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/characters/balveda/"
+                href="./characters/balveda/"
                 />
   </url>
   
   <url>
-    <loc>/characters/kraiklyn/</loc>
+    <loc>./characters/kraiklyn/</loc>
     <lastmod>2018-01-28T21:57:07+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/history/</loc>
+    <loc>./history/</loc>
     <lastmod>2018-01-28T21:58:09+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/history/"
+                href="./history/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/history/"
+                href="./history/"
                 />
   </url>
   
   <url>
-    <loc>/criticism/</loc>
+    <loc>./criticism/</loc>
     <lastmod>2018-01-28T22:01:36+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/criticism/"
+                href="./criticism/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/criticism/"
+                href="./criticism/"
                 />
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>./categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/categories/"
+                href="./categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="./categories/"
                 />
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>./</loc>
     <lastmod>2018-01-28T21:48:10+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/"
+                href="./"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="./"
                 />
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>./tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="/tags/"
+                href="./tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="./tags/"
                 />
   </url>
   

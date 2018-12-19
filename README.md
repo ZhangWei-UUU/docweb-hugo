@@ -55,7 +55,7 @@ do
                 docker build -t docwebimage .
                 echo "启动新容器"
                 docker run --name docwebcontainer -p 4001:80 -d docwebimage
-                echo "结束"
+                echo "结 束"
         else
                 echo "Ref $ref received. Doing nothing: only the ${BRANCH} branch may be deployed on this server."
         fi
