@@ -47,14 +47,14 @@ do
                 echo "停止容器运行"
                 docker stop docweb
                 echo "删除旧容器"
-                docker rm docwebContainer 
+                docker rm docwebcontainer 
                 echo "删除旧镜像"
-                docker rmi docwebImage
+                docker rmi docwebimage
                 echo "构建新镜像"
                 cd ~/docweb-hugo-dir
-                docker build -t docwebImage .
+                docker build -t docwebimage .
                 echo "启动新容器"
-                docker run --name docwebContainer -p 6000:80 -d docwebImage
+                docker run --name docwebcontainer -p 6000:80 -d docwebimage
                 echo "运行成功"
         else
                 echo "Ref $ref received. Doing nothing: only the ${BRANCH} branch may be deployed on this server."
