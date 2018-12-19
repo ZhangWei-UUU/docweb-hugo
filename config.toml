@@ -1,7 +1,7 @@
-baseURL = "/"
+baseURL = "./"
 [languages]
   [languages.en]
-    baseURL = "/"
+    baseURL = "./"
     languageName = "English"
     staticDir="en"
     contentDir = "content/English"
@@ -13,7 +13,7 @@ baseURL = "/"
     pygmentsStyle = "monokailight"
 
   [languages.cn]
-    baseURL = "/"
+    baseURL = "./"
     languageName = "Chinese"
     contentDir = "content/Chinese"
     staticDir="cn"
