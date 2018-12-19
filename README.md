@@ -33,7 +33,7 @@ then enter into the library's `hooks` folder and create `post-receive` file.
 > Note: running command `chmod ug+x post-receive`to authority
 ```bash
 #!/bin/bash
-TRAGET="/home/ubuntu/docweb-hugo-dir"
+TRAGET="/home/ubuntu/docwebhugodir"
 GIT_DIR="/home/ubuntu/docweb-hugo.git"
 BRANCH="master"
 
@@ -51,11 +51,11 @@ do
                 echo "删除旧镜像"
                 docker rmi docwebimage
                 echo "构建新镜像"
-                cd ~/docweb-hugo-dir
+                cd $TRAGET
                 docker build -t docwebimage .
                 echo "启动新容器"
                 docker run --name docwebcontainer -p 6000:80 -d docwebimage
-                echo "运行成功"
+                echo "运行结束"
         else
                 echo "Ref $ref received. Doing nothing: only the ${BRANCH} branch may be deployed on this server."
         fi
