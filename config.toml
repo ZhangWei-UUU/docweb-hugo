@@ -1,0 +1,35 @@
+baseURL = "/"
+[languages]
+  [languages.en]
+    baseURL = "/"
+    languageName = "English"
+    staticDir="en"
+    contentDir = "content/English"
+    weight = 2
+    languageCode = "en-us"
+    title = "Hugo Document"
+    theme = "kraiklyn"
+    pygmentsCodeFences = true
+    pygmentsStyle = "monokailight"
+
+  [languages.cn]
+    baseURL = "/"
+    languageName = "Chinese"
+    contentDir = "content/Chinese"
+    staticDir="cn"
+    weight = 2
+    languageCode = "cn-zh"
+    title = "Hugo 文档"
+    theme = "kraiklyn"
+    pygmentsCodeFences = true
+    pygmentsStyle = "monokailight"
+
+[params]
+
+    sidebarColor = "blue"
+    customCss = []
+
+
+
+
+
