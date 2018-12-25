@@ -1,28 +1,13 @@
 baseURL = "/"
-[languages]
-  [languages.en]
-    baseURL = "/"
-    languageName = "English"
-    staticDir="en"
-    contentDir = "content/English"
-    weight = 2
-    languageCode = "en-us"
-    title = "iOS Human Interface Guidelines"
-    theme = "kraiklyn"
-    pygmentsCodeFences = true
-    pygmentsStyle = "monokailight"
-
-  [languages.cn]
-    baseURL = "/"
     languageName = "Chinese"
-    contentDir = "content/Chinese"
+    contentDir = "content/"
     staticDir="cn"
     weight = 2
     languageCode = "cn-zh"
     title = "iOS Human Interface Guidelines"
     theme = "kraiklyn"
     pygmentsCodeFences = true
-    pygmentsStyle = "monokailight"
+    pygmentsStyle = "monokailight" 
 
 [params]
 

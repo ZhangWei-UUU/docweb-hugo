@@ -13,8 +13,6 @@ Respond to accessibility preferences. If your app uses UIKit to implement its us
 
 Test your app with accessibility features. In addition to text and motion changes, accessibility options can change contrast, invert colors, reduce transparency, and more. Enable these settings and observe how your app will look and behave for people who enable these features.
 
-Include closed captions and audio descriptions. Closed captions allow the deaf and hard-of-hearing to perceive spoken dialogue and other audible content in videos. Audio descriptions provide spoken narration of important video content for the visually impaired.
+Include closed captions`[字幕]` and audio descriptions. Closed captions allow the deaf`[聋]` and hard-of-hearing to perceive spoken dialogue and other audible content in videos. Audio descriptions provide spoken narration`[口头叙述]` of important video content for the visually impaired.
 
-Use sufficient color contrast ratios. Insufficient contrast in your app makes content hard to read for everyone. Icons and text might blend with the background, for example. An online color contrast calculator can help you accurately analyze the color contrast in your app, to ensure that it meets optimal standards. Strive for a minimum contrast ratio of 4.5:1, although 7:1 is preferred because it meets more stringent accessibility standards. For additional design guidance, see Color.
-
-For more information, see iOS Accessibility and UIKit Accessibility.
+Use sufficient color contrast ratios`[对比度]`. Insufficient contrast in your app makes content hard to read for everyone. Icons and text might blend with the background, for example. An online color contrast calculator can help you accurately analyze the color contrast in your app, to ensure that it meets optimal standards. Strive for a minimum contrast ratio of 4.5:1, although 7:1 is preferred because it meets more stringent accessibility standards. For additional design guidance, see Color.
