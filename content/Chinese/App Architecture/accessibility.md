@@ -5,9 +5,9 @@ anchor: "Accessibility"
 weight: 3
 ---
 
-iOS offers extensive accessibility features for users with vision loss, hearing loss, and other disabilities. Most UIKit-based apps can be made accessible with very little effort, allowing more people to use your app while providing an equally engaging experience for all.
+iOS offers extensive accessibility features for users with vision loss`[失明]`, hearing loss, and other disabilities. Most UIKit-based apps can be made accessible with very little effort, allowing more people to use your app while providing an equally engaging experience for all.
 
-Provide alternative text labels for images, icons, and interface elements. Alternative text labels aren’t visible onscreen, but they let VoiceOver audibly describe what's onscreen, making navigation easier for people with visual impairments.
+Provide alternative text labels`[文本替代标签]` for images, icons, and interface elements. Alternative text labels aren’t visible onscreen, but they let VoiceOver audibly describe what's onscreen, making navigation easier for people with visual impairments.
 
 Respond to accessibility preferences. If your app uses UIKit to implement its user interface, text and interface elements automatically adapt to certain accessibility preferences, such as bold and larger text. Your app should also check and respond to accessibility preferences when appropriate, such as when the option to reduce motion is enabled. Apps implementing custom fonts should attempt to match the accessibility behavior of the system fonts.
 

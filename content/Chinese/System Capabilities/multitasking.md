@@ -7,6 +7,7 @@ weight: 1
 
 Multitasking lets you quickly switch from one app to another at any time through a multitasking interface on an iOS device, or by using a multifinger gesture on an iPad. On iPad, multitasking also lets you use two apps at once in Slide Over, Split View, or Picture in Picture mode. Slide Over is accessed by swiping from the right side of the screen to temporarily use a second app without leaving the context of the current app, such as to quickly view your Mail inbox while you’re using Safari. Split View lets you use two side-by-side apps at the same time, and Picture in Picture lets you watch a video while working in another app.
 
+![ipad](https://developer.apple.com/design/human-interface-guidelines/ios/images/picture-in-picture-controls_2x.png")
 Designing an app that thrives in a multitasking environment hinges on your app harmoniously coexisting with other apps on the device. This means your app shouldn’t use too much CPU, memory, screen space, or other system resources. It should respond well to sudden interruptions and audio from other apps, transition to and from the background quickly and smoothly, and behave responsibly when operating in the background.
 
 Design an adaptable interface that looks great when running in split view. An adaptable interface automatically adjusts its UI elements and layout when users switch multitasking modes, rotate the screen, or change text size or locale. To learn more about designing an adaptable experience, see Adaptivity and Layout.
