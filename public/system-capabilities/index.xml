@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Capabilities on iOS Human Interface Guidelines</title>
+    <link>/system-capabilities/</link>
+    <description>Recent content in System Capabilities on iOS Human Interface Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn-zh</language>
+    <lastBuildDate>Sun, 28 Jan 2018 21:48:57 +0100</lastBuildDate>
+    
+	<atom:link href="/system-capabilities/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multitasking</title>
+      <link>/system-capabilities/multitasking/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:57 +0100</pubDate>
+      
+      <guid>/system-capabilities/multitasking/</guid>
+      <description>Multitasking lets you quickly switch from one app to another at any time through a multitasking interface on an iOS device, or by using a multifinger gesture on an iPad. On iPad, multitasking also lets you use two apps at once in Slide Over, Split View, or Picture in Picture mode. Slide Over is accessed by swiping from the right side of the screen to temporarily use a second app without leaving the context of the current app, such as to quickly view your Mail inbox while you’re using Safari.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App Architectures on iOS Human Interface Guidelines</title>
+    <link>/app-architecture/</link>
+    <description>Recent content in App Architectures on iOS Human Interface Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn-zh</language>
+    <lastBuildDate>Sun, 28 Jan 2018 21:48:57 +0100</lastBuildDate>
+    
+	<atom:link href="/app-architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Accessibility</title>
+      <link>/app-architecture/accessibility/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:57 +0100</pubDate>
+      
+      <guid>/app-architecture/accessibility/</guid>
+      <description>iOS offers extensive accessibility features for users with vision loss[失明], hearing loss, and other disabilities. Most UIKit-based apps can be made accessible with very little effort, allowing more people to use your app while providing an equally engaging experience for all.
+Provide alternative text labels[文本替代标签] for images, icons, and interface elements. Alternative text labels aren’t visible onscreen, but they let VoiceOver audibly describe what&amp;rsquo;s onscreen, making navigation easier for people with visual impairments.</description>
+    </item>
+    
+  </channel>
+</rss>

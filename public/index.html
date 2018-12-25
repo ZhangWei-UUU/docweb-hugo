@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cn-zh" lang="cn-zh">
+<head>
+  <meta name="generator" content="Hugo 0.52" />
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>iOS Human Interface Guidelines</title>
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="iOS Human Interface Guidelines" />
+
+</head>
+<body>
+
+<div class="sidebar sidebar-grey">
+    <div class="navigation">
+        <div>
+   
+</div>
+
+        <h1 class="site-title"><a href="/">iOS Human Interface Guidelines</a></h1>
+
+
+        <nav class="internal">
+            <ul>
+    
+        
+            
+    <li>
+        <a href="#">App Architectures</a>
+        <ul>
+            
+            
+                <li><a href="#Accessibility">Accessibility</a></li>
+            
+        </ul>
+    </li>
+
+
+
+        
+            
+    <li>
+        <a href="#">IOSs</a>
+        <ul>
+            
+            
+                <li><a href="#iOS%20Design%20Themes">Themes</a></li>
+            
+                <li><a href="#Interface%20Essentials">Interface Essentials</a></li>
+            
+        </ul>
+    </li>
+
+
+
+        
+            
+    <li>
+        <a href="#">System Capabilities</a>
+        <ul>
+            
+            
+                <li><a href="#Multitasking">Multitasking</a></li>
+            
+        </ul>
+    </li>
+
+
+
+        
+    
+</ul>
+
+        </nav>
+
+        <nav class="external">
+            <div class="external-title"></div>
+            
+        </nav>
+    </div>
+
+    <div class="version">
+         Dec 25, 2018
+    </div>
+</div>
+
+<div class="content">
+    
+        
+            
+    <section class="page" id="">
+    <h1>
+        <a href="#">App Architectures</a>
+    </h1>
+    <div class="content">
+        
+    </div>
+</section>
+
+    
+            
+                <section class="page" id="Accessibility">
+    <h1>
+        <a href="#Accessibility">Accessibility</a>
+    </h1>
+    <div class="content">
+        <p>iOS offers extensive accessibility features for users with vision loss<code>[失明]</code>, hearing loss, and other disabilities. Most UIKit-based apps can be made accessible with very little effort, allowing more people to use your app while providing an equally engaging experience for all.</p>
+
+<p>Provide alternative text labels<code>[文本替代标签]</code> for images, icons, and interface elements. Alternative text labels aren’t visible onscreen, but they let VoiceOver audibly describe what&rsquo;s onscreen, making navigation easier for people with visual impairments.</p>
+
+<p>Respond to accessibility preferences. If your app uses UIKit to implement its user interface, text and interface elements automatically adapt to certain accessibility preferences, such as bold and larger text. Your app should also check and respond to accessibility preferences when appropriate, such as when the option to reduce motion is enabled. Apps implementing custom fonts should attempt to match the accessibility behavior of the system fonts.</p>
+
+<p>Test your app with accessibility features. In addition to text and motion changes, accessibility options can change contrast, invert colors, reduce transparency, and more. Enable these settings and observe how your app will look and behave for people who enable these features.</p>
+
+<p>Include closed captions<code>[字幕]</code> and audio descriptions. Closed captions allow the deaf<code>[聋]</code> and hard-of-hearing to perceive spoken dialogue and other audible content in videos. Audio descriptions provide spoken narration<code>[口头叙述]</code> of important video content for the visually impaired.</p>
+
+<p>Use sufficient color contrast ratios<code>[对比度]</code>. Insufficient contrast in your app makes content hard to read for everyone. Icons and text might blend with the background, for example. An online color contrast calculator can help you accurately analyze the color contrast in your app, to ensure that it meets optimal standards. Strive for a minimum contrast ratio of 4.5:1, although 7:1 is preferred because it meets more stringent accessibility standards. For additional design guidance, see Color.</p>
+
+    </div>
+</section>
+
+            
+
+
+
+        
+            
+    <section class="page" id="">
+    <h1>
+        <a href="#">IOSs</a>
+    </h1>
+    <div class="content">
+        
+    </div>
+</section>
+
+    
+            
+                <section class="page" id="iOS Design Themes">
+    <h1>
+        <a href="#iOS%20Design%20Themes">Themes</a>
+    </h1>
+    <div class="content">
+        
+
+<p>As an app designer, you have the opportunity to deliver an extraordinary product that rises to the top of the App Store charts. To do so, you&rsquo;ll need to meet high expectations for quality and functionality.</p>
+
+<p>Three primary themes differentiate iOS from other platforms:</p>
+
+<p>Clarity. Throughout the system, text is legible at every size, icons are precise and lucid, adornments are subtle and appropriate, and a sharpened focus on functionality motivates the design. Negative space, color, fonts, graphics, and interface elements subtly highlight important content and convey interactivity.</p>
+
+<p>Deference. Fluid motion and a crisp, beautiful interface help people understand and interact with content while never competing with it. Content typically fills the entire screen, while translucency and blurring often hint at more. Minimal use of bezels, gradients, and drop shadows keep the interface light and airy, while ensuring that content is paramount.</p>
+
+<p>Depth. Distinct visual layers and realistic motion convey hierarchy, impart vitality, and facilitate understanding. Touch and discoverability heighten delight and enable access to functionality and additional content without losing context. Transitions provide a sense of depth as you navigate through content.</p>
+
+<h3 id="design-principles">Design Principles</h3>
+
+<p>To maximize impact and reach, keep the following principles in mind as you imagine your app’s identity.</p>
+
+<h3 id="aesthetic-integrity">Aesthetic Integrity</h3>
+
+<p>Aesthetic integrity represents how well an app’s appearance and behavior integrate with its function. For example, an app that helps people perform a serious task can keep them focused by using subtle, unobtrusive graphics, standard controls, and predictable behaviors. On the other hand, an immersive app, such as a game, can deliver a captivating appearance that promises fun and excitement, while encouraging discovery.</p>
+
+<h3 id="consistency">Consistency</h3>
+
+<p>A consistent app implements familiar standards and paradigms by using system-provided interface elements, well-known icons, standard text styles, and uniform terminology. The app incorporates features and behaviors in ways people expect.</p>
+
+<h3 id="direct-manipulation">Direct Manipulation</h3>
+
+<p>The direct manipulation of onscreen content engages people and facilitates understanding. Users experience direct manipulation when they rotate the device or use gestures to affect onscreen content. Through direct manipulation, they can see the immediate, visible results of their actions.</p>
+
+<h3 id="feedback">Feedback</h3>
+
+<p>Feedback acknowledges actions and shows results to keep people informed. The built-in iOS apps provide perceptible feedback in response to every user action. Interactive elements are highlighted briefly when tapped, progress indicators communicate the status of long-running operations, and animation and sound help clarify the results of actions.</p>
+
+<h3 id="metaphors">Metaphors</h3>
+
+<p>People learn more quickly when an app’s virtual objects and actions are metaphors for familiar experiences—whether rooted in the real or digital world. Metaphors work well in iOS because people physically interact with the screen. They move views out of the way to expose content beneath. They drag and swipe content. They toggle switches, move sliders, and scroll through picker values. They even flick through pages of books and magazines.</p>
+
+<h3 id="user-control">User Control</h3>
+
+<p>Throughout iOS, people—not apps—are in control. An app can suggest a course of action or warn about dangerous consequences, but it’s usually a mistake for the app to take over the decision-making. The best apps find the correct balance between enabling users and avoiding unwanted outcomes. An app can make people feel like they’re in control by keeping interactive elements familiar and predictable, confirming destructive actions, and making it easy to cancel operations, even when they’re already underway.</p>
+
+    </div>
+</section>
+
+            
+                <section class="page" id="Interface Essentials">
+    <h1>
+        <a href="#Interface%20Essentials">Interface Essentials</a>
+    </h1>
+    <div class="content">
+        <p>Most iOS apps are built using components from UIKit, a programming framework that defines common interface elements. This framework lets apps achieve a consistent appearance across the system, while at the same time offering a high level of customization. UIKit elements are flexible and familiar. They’re adaptable, enabling you to design a single app that looks great on any iOS device, and they automatically update when the system introduces appearance changes. The interface elements provided by UIKit fit into three main categories:</p>
+
+<p>Bars. Tell people where they are in your app, provide navigation, and may contain buttons or other elements for initiating actions and communicating information.</p>
+
+<p>Views. Contain the primary content people see in your app, such as text, graphics, animations, and interactive elements. Views can enable behaviors such as scrolling, insertion, deletion, and arrangement.</p>
+
+<p>Controls. Initiate actions and convey information. Buttons, switches, text fields, and progress indicators are examples of controls.</p>
+
+<p>In addition to defining the interface of iOS, UIKit defines functionality your app can adopt. Through this framework, for example, your app can respond to gestures on the touchscreen and enable features such as drawing, accessibility, and printing.</p>
+
+<p>iOS tightly integrates with other programming frameworks and technologies too, such as Apple Pay, HealthKit, and ResearchKit, enabling you to design amazingly powerful apps.</p>
+
+    </div>
+</section>
+
+            
+
+
+
+        
+            
+    <section class="page" id="">
+    <h1>
+        <a href="#">System Capabilities</a>
+    </h1>
+    <div class="content">
+        
+    </div>
+</section>
+
+    
+            
+                <section class="page" id="Multitasking">
+    <h1>
+        <a href="#Multitasking">Multitasking</a>
+    </h1>
+    <div class="content">
+        <p>Multitasking lets you quickly switch from one app to another at any time through a multitasking interface on an iOS device, or by using a multifinger gesture on an iPad. On iPad, multitasking also lets you use two apps at once in Slide Over, Split View, or Picture in Picture mode. Slide Over is accessed by swiping from the right side of the screen to temporarily use a second app without leaving the context of the current app, such as to quickly view your Mail inbox while you’re using Safari. Split View lets you use two side-by-side apps at the same time, and Picture in Picture lets you watch a video while working in another app.</p>
+
+<p><img src="https://developer.apple.com/design/human-interface-guidelines/ios/images/picture-in-picture-controls_2x.png" alt="ipad" />
+Designing an app that thrives in a multitasking environment hinges on your app harmoniously coexisting<code>[和谐共存]</code> with other apps on the device. This means your app shouldn’t use too much CPU, memory, screen space, or other system resources. It should respond well to sudden interruptions<code>[突然中断]</code> and audio from other apps, transition to and from the background quickly and smoothly, and behave responsibly when operating in the background.</p>
+
+<p>Design an adaptable interface that looks great when running in split view. An adaptable<code>[可适]</code>interface automatically adjusts its UI elements and layout when users switch multitasking modes, rotate the screen, or change text size or locale. To learn more about designing an adaptable experience, see Adaptivity and Layout.</p>
+
+<p>Be prepared for interruptions, and be ready to resume. Your app can be interrupted at any time. When an interruption occurs, your app should save the current state quickly and precisely so people can seamlessly continue where they left off when they return. For developer guidance, see Preserving Your App’s Visual Appearance Across Launches in App Programming Guide for iOS.</p>
+
+<p>Make sure your interface works with a double-high status bar. Certain features<code>[特定功能]</code>, such as in-progress phone calls, audio recording, and tethering display an additional status bar at the top of the screen. In unprepared apps, this added height can cause layout problems by covering or pushing down other interface elements. Test your app with these features enabled to ensure that your interface responds appropriately and still looks great.</p>
+
+<p>Pause activity that requires attention or active participation. If your app is a game or a media-viewing app, for example, make sure people don’t miss anything when they switch to another app. When they switch back, let them continue as if they’d never left.</p>
+
+<p>Respond appropriately to external audio. Occasionally, your app’s audio may be interrupted by audio from another app or the system itself. For example, an incoming phone call or a music playlist initiated by Siri may interrupt your app’s audio. When situations like these occur, your app’s response should meet people’s expectations. For primary audio<code>[主音频]</code> interruptions, such as playing music, podcasts, or audiobooks<code>[有声书]</code>, your app should pause its audio indefinitely. For shorter interruptions, such as GPS directional notifications, your app should temporarily lower its audio volume or pause its audio and resume when the interruption ends. For additional guidance, see Audio.</p>
+
+<p>Finish user-initiated tasks in the background. When someone starts a task, they expect it to finish even if they switch away from<code>[从...切换]</code> your app. If your app is in the middle of performing a task that doesn’t need additional input, complete it in the background before suspending.</p>
+
+<p>Use notifications sparingly<code>[谨慎地]</code>. Your app can arrange for notifications to be sent at specific times, whether your app is suspended, running in the background, or not running at all. Notifications are fine for communicating important information, but avoid pestering people with too many. For example, don’t show a notification every time your app finishes a task in the background. Instead, let people check on tasks by returning to your app. For additional guidance, see Notifications.</p>
+
+<p>For iPad-specific developer guidance, see Adopting Multitasking Enhancements on iPad.</p>
+
+    </div>
+</section>
+
+            
+
+
+
+        
+    
+</div>
+</body>
+</html>
+

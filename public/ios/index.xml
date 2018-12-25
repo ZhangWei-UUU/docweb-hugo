@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IOSs on iOS Human Interface Guidelines</title>
+    <link>/ios/</link>
+    <description>Recent content in IOSs on iOS Human Interface Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn-zh</language>
+    <lastBuildDate>Sun, 28 Jan 2018 21:48:57 +0100</lastBuildDate>
+    
+	<atom:link href="/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Themes</title>
+      <link>/ios/themes/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:57 +0100</pubDate>
+      
+      <guid>/ios/themes/</guid>
+      <description>As an app designer, you have the opportunity to deliver an extraordinary product that rises to the top of the App Store charts. To do so, you&amp;rsquo;ll need to meet high expectations for quality and functionality.
+Three primary themes differentiate iOS from other platforms:
+Clarity. Throughout the system, text is legible at every size, icons are precise and lucid, adornments are subtle and appropriate, and a sharpened focus on functionality motivates the design.</description>
+    </item>
+    
+    <item>
+      <title>Interface Essentials</title>
+      <link>/ios/essentials/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:57 +0100</pubDate>
+      
+      <guid>/ios/essentials/</guid>
+      <description>Most iOS apps are built using components from UIKit, a programming framework that defines common interface elements. This framework lets apps achieve a consistent appearance across the system, while at the same time offering a high level of customization. UIKit elements are flexible and familiar. They’re adaptable, enabling you to design a single app that looks great on any iOS device, and they automatically update when the system introduces appearance changes.</description>
+    </item>
+    
+  </channel>
+</rss>

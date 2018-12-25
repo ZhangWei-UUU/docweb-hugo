@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iOS Human Interface Guidelines</title>
+    <link>/</link>
+    <description>Recent content on iOS Human Interface Guidelines</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn-zh</language>
+    <lastBuildDate>Sun, 28 Jan 2018 21:48:57 +0100</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multitasking</title>
+      <link>/system-capabilities/multitasking/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:57 +0100</pubDate>
+      
+      <guid>/system-capabilities/multitasking/</guid>
+      <description>Multitasking lets you quickly switch from one app to another at any time through a multitasking interface on an iOS device, or by using a multifinger gesture on an iPad. On iPad, multitasking also lets you use two apps at once in Slide Over, Split View, or Picture in Picture mode. Slide Over is accessed by swiping from the right side of the screen to temporarily use a second app without leaving the context of the current app, such as to quickly view your Mail inbox while you’re using Safari.</description>
+    </item>
+    
+    <item>
+      <title>Themes</title>
+      <link>/ios/themes/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:57 +0100</pubDate>
+      
+      <guid>/ios/themes/</guid>
+      <description>As an app designer, you have the opportunity to deliver an extraordinary product that rises to the top of the App Store charts. To do so, you&amp;rsquo;ll need to meet high expectations for quality and functionality.
+Three primary themes differentiate iOS from other platforms:
+Clarity. Throughout the system, text is legible at every size, icons are precise and lucid, adornments are subtle and appropriate, and a sharpened focus on functionality motivates the design.</description>
+    </item>
+    
+    <item>
+      <title>Interface Essentials</title>
+      <link>/ios/essentials/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:57 +0100</pubDate>
+      
+      <guid>/ios/essentials/</guid>
+      <description>Most iOS apps are built using components from UIKit, a programming framework that defines common interface elements. This framework lets apps achieve a consistent appearance across the system, while at the same time offering a high level of customization. UIKit elements are flexible and familiar. They’re adaptable, enabling you to design a single app that looks great on any iOS device, and they automatically update when the system introduces appearance changes.</description>
+    </item>
+    
+    <item>
+      <title>Accessibility</title>
+      <link>/app-architecture/accessibility/</link>
+      <pubDate>Sun, 28 Jan 2018 21:48:57 +0100</pubDate>
+      
+      <guid>/app-architecture/accessibility/</guid>
+      <description>iOS offers extensive accessibility features for users with vision loss[失明], hearing loss, and other disabilities. Most UIKit-based apps can be made accessible with very little effort, allowing more people to use your app while providing an equally engaging experience for all.
+Provide alternative text labels[文本替代标签] for images, icons, and interface elements. Alternative text labels aren’t visible onscreen, but they let VoiceOver audibly describe what&amp;rsquo;s onscreen, making navigation easier for people with visual impairments.</description>
+    </item>
+    
+  </channel>
+</rss>
