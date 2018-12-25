@@ -7,7 +7,7 @@ baseURL = "/"
     contentDir = "content/English"
     weight = 2
     languageCode = "en-us"
-    title = "Hugo Document"
+    title = "iOS Human Interface Guidelines"
     theme = "kraiklyn"
     pygmentsCodeFences = true
     pygmentsStyle = "monokailight"
@@ -19,14 +19,14 @@ baseURL = "/"
     staticDir="cn"
     weight = 2
     languageCode = "cn-zh"
-    title = "Hugo 文档"
+    title = "iOS Human Interface Guidelines"
     theme = "kraiklyn"
     pygmentsCodeFences = true
     pygmentsStyle = "monokailight"
 
 [params]
 
-    sidebarColor = "blue"
+    sidebarColor = "grey"
     customCss = []
 
 
